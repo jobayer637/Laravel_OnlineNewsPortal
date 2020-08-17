@@ -1,0 +1,37 @@
+td{
+	height: 35px;
+	padding: 5px;
+	font-size: 20px;
+}
+
+
+input[type="text"] ,select{
+	height: 35px;
+	width: 450px;
+}
+
+input[type="email"]{
+	height: 35px;
+	width: 450px;
+}
+
+input[type="submit"]{
+	padding: 5px 15px 5px 15px;
+}
+
+input[type="reset"]{
+	padding: 5px 15px 5px 15px;
+}
+
+textarea{
+	height: 145px;
+	width: 450px;
+}
+
+input[type="checkbox"]{
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+}
+
+input, select, textarea{margin-bottom: 5px;border: 1px solid blue;}

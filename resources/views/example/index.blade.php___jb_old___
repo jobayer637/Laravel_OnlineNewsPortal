@@ -1,0 +1,208 @@
+@extends('layouts.frontend.app')
+@section('title','home')
+
+@section('leftSide')
+    <a href="#" class="list-group-item list-group-item-action bg-info">
+        <h4 class="text-center text-white">সর্বশেষ সংবাদ</h4>
+    </a>
+    {{--latest news--}}
+    <div class=" mt-2">
+        <div class="row">
+            <div class="col-md-12 col-lg-7">
+                <div class="card">
+                    <img class="text-center card-img-top p-1" src="storage/article/image.png" alt="image">
+                    <div class="card-body p-1 text-justify">
+                        <h4 class="card-title">কনস্যুলেটেই নিহত হন খাশোগি, স্বীকার করল সৌদি</h4>
+                        <p class="card-text">
+                            অবশেষে তুরস্কের সৌদি কনস্যুলেটের ভিতরেই সাংবাদিক জামাল খাশোগির মৃত্যুর কথা স্বীকার করেছে সৌদি আরব। নিখোঁজের ১৮ দিনের মাথায় গতকাল শনিবার সৌদি আরবের রাষ্ট্রীয় টেলিভিশনে প্রচারিত এক বিবৃতিতে এ কথা জানানো...বিস্তারিত
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-5">
+                <ul class="list-group list-group-flush text-primary hover">
+                    <li class="list-group-item p-1 pb-2">হাওয়া ভবনের শাসন আর কোনদিন ফিরে আসতে দেবে না জনগণ---------- মোহাম্মদ নাসিম</li>
+                    <li class="list-group-item p-1 pb-2">‘মৃত্যুর পর’ রাজপ্রাসাদে!</li>
+                    <li class="list-group-item p-1 pb-2">বসন্তের যন্ত্রণা ম্যাগপাই পাখি</li>
+                    <li class="list-group-item p-1 pb-2">বসন্তের যন্ত্রণা ম্যাগপাই পাখি</li>
+                    <li class="list-group-item p-1 pb-2">জেলেরা মারমুখি, পিছু হটলো অভিযানকারীরা</li>
+                    <li class="list-group-item p-1 pb-2">বিএনপি ২০১৪ সালের মতো নৈরাজ্য সৃষ্টি করতে পারবে না:তোফায়েল</li>
+            </div>
+        </div>
+    </div>
+    <hr style="border:1px solid rosybrown; margin-top:50px;" class="mt-4">
+
+
+    {{--খেলার খবর--}}
+    <a href="#" class="list-group-item list-group-item-action bg-info">
+        <h4 class="text-center text-white">খেলার খবর</h4>
+    </a>
+    <div class=" mt-2">
+        <div class="row">
+            <div class="col-md-12 col-lg-8">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6 mb-2 pr-1">
+                        <div class="card">
+                            <img class="text-center card-img-top" src="storage/article/jobayer.png" alt="image" style="max-height: 150px;">
+                            <div class="card-body  p-1 pt-2 pb-2">
+                                <h5 class="card-title">কনস্যুলেটেই নিহত হন খাশোগি, স্বীকার করল সৌদি</h5>
+                                <p class="card-text">
+                                    অবশেষে তুরস্কের সৌদি কনস্যুলেটের ভিতরেই সাংবাদিক জামাল খাশোগির মৃত্যুর কথা স্বীকার করেছে সৌদি আরব...বিস্তারিত
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6 pr-1">
+                        <div class="card">
+                            <img class="text-center card-img-top" src="storage/article/jobayer.png" alt="image" style="max-height: 150px;">
+                            <div class="card-body  p-1 pt-2 pb-2">
+                                <h5 class="card-title">কনস্যুলেটেই নিহত হন খাশোগি, স্বীকার করল সৌদি</h5>
+                                <p class="card-text">
+                                    অবশেষে তুরস্কের সৌদি কনস্যুলেটের ভিতরেই সাংবাদিক জামাল খাশোগির মৃত্যুর কথা স্বীকার করেছে সৌদি আরব...বিস্তারিত
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">হাওয়া ভবনের শাসন আর কোনদিন ফিরে আসতে দেবে না জনগণ-</li>
+                    <li class="list-group-item">‘মৃত্যুর পর’ রাজপ্রাসাদে!</li>
+                    <li class="list-group-item">বসন্তের যন্ত্রণা ম্যাগপাই পাখি</li>
+                    <li class="list-group-item">জেলেরা মারমুখি, পিছু হটলো অভিযানকারীরা</li>
+                    <li class="list-group-item">বিএনপি ২০১৪ সালের মতো নৈরাজ্য সৃষ্টি করতে পারবে না:তোফায়েল</li>
+            </div>
+        </div>
+    </div>
+    <hr style="border:1px solid #8322bc; margin-top:50px;" class="mt-4">
+
+
+    <a href="#" class="list-group-item list-group-item-action bg-info">
+        <h4 class="text-center text-white">সর্বশেষ সংবাদ</h4>
+    </a>
+    {{--latest news--}}
+    <div class=" mt-2">
+        <div class="row">
+            <div class="col-md-12 col-lg-7">
+                <div class="card">
+                    <img class="text-center card-img-top" src="storage/article/image.png" alt="image">
+                    <div class="card-body">
+                        <h4 class="card-title">কনস্যুলেটেই নিহত হন খাশোগি, স্বীকার করল সৌদি</h4>
+                        <p class="card-text">
+                            অবশেষে তুরস্কের সৌদি কনস্যুলেটের ভিতরেই সাংবাদিক জামাল খাশোগির মৃত্যুর কথা স্বীকার করেছে সৌদি আরব। নিখোঁজের ১৮ দিনের মাথায় গতকাল শনিবার সৌদি আরবের রাষ্ট্রীয় টেলিভিশনে প্রচারিত এক বিবৃতিতে এ কথা জানানো...বিস্তারিত
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-5">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">হাওয়া ভবনের শাসন আর কোনদিন ফিরে আসতে দেবে না জনগণ---------- মোহাম্মদ নাসিম</li>
+                    <li class="list-group-item">‘মৃত্যুর পর’ রাজপ্রাসাদে!</li>
+                    <li class="list-group-item">বসন্তের যন্ত্রণা ম্যাগপাই পাখি</li>
+                    <li class="list-group-item">বসন্তের যন্ত্রণা ম্যাগপাই পাখি</li>
+                    <li class="list-group-item">জেলেরা মারমুখি, পিছু হটলো অভিযানকারীরা</li>
+                    <li class="list-group-item">বিএনপি ২০১৪ সালের মতো নৈরাজ্য সৃষ্টি করতে পারবে না:তোফায়েল</li>
+            </div>
+        </div>
+    </div>
+    <hr style="border:1px solid rosybrown; margin-top:50px;" class="mt-4">
+
+
+    {{--খেলার খবর--}}
+    <a href="#" class="list-group-item list-group-item-action bg-info">
+        <h4 class="text-center text-white">খেলার খবর</h4>
+    </a>
+    <div class=" mt-2">
+        <div class="row">
+            <div class="col-md-12 col-lg-8">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6 mb-2">
+                        <div class="card">
+                            <img class="text-center card-img-top" src="storage/article/image.png" alt="image">
+                            <div class="card-body">
+                                <h4 class="card-title">কনস্যুলেটেই নিহত হন খাশোগি, স্বীকার করল সৌদি</h4>
+                                <p class="card-text">
+                                    অবশেষে তুরস্কের সৌদি কনস্যুলেটের ভিতরেই সাংবাদিক জামাল খাশোগির মৃত্যুর কথা স্বীকার করেছে সৌদি আরব...বিস্তারিত
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="card">
+                            <img class="text-center card-img-top" src="storage/article/image.png" alt="image">
+                            <div class="card-body">
+                                <h4 class="card-title">কনস্যুলেটেই নিহত হন খাশোগি, স্বীকার করল সৌদি</h4>
+                                <p class="card-text">
+                                    অবশেষে তুরস্কের সৌদি কনস্যুলেটের ভিতরেই সাংবাদিক জামাল খাশোগির মৃত্যুর কথা স্বীকার করেছে সৌদি আরব...বিস্তারিত
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">হাওয়া ভবনের শাসন আর কোনদিন ফিরে আসতে দেবে না জনগণ-</li>
+                    <li class="list-group-item">‘মৃত্যুর পর’ রাজপ্রাসাদে!</li>
+                    <li class="list-group-item">বসন্তের যন্ত্রণা ম্যাগপাই পাখি</li>
+                    <li class="list-group-item">জেলেরা মারমুখি, পিছু হটলো অভিযানকারীরা</li>
+                    <li class="list-group-item">বিএনপি ২০১৪ সালের মতো নৈরাজ্য সৃষ্টি করতে পারবে না:তোফায়েল</li>
+            </div>
+        </div>
+    </div>
+    <hr style="border:1px solid rosybrown; margin-top:50px;" class="mt-4">
+@endsection
+
+
+@section('rightSide')
+    {{--সর্বাধিক পঠিত news--}}
+    <div class="list-group mt-4">
+        <a href="#" class="bg-light pt-2">
+            <h4 class="ml-3 pl-4">সর্বাধিক পঠিত খবর</h4>
+        </a>
+        <div class="col-md-12 col-lg-12">
+            <ul class="list-group list-group-flush text-justify text-info">
+                <li class="list-group-item p-0 pt-2 pb-2">হাওয়া ভবনের শাসন আর কোনদিন ফিরে আসতে দেবে না জনগণ---------- মোহাম্মদ নাসিম</li>
+                <li class="list-group-item p-0 pt-2 pb-2">‘মৃত্যুর পর’ রাজপ্রাসাদে!</li>
+                <li class="list-group-item p-0 pt-2 pb-2">বসন্তের যন্ত্রণা ম্যাগপাই পাখি</li>
+                <li class="list-group-item p-0 pt-2 pb-2">বসন্তের যন্ত্রণা ম্যাগপাই পাখি</li>
+                <li class="list-group-item p-0 pt-2 pb-2">জেলেরা মারমুখি, পিছু হটলো অভিযানকারীরা</li>
+                <li class="list-group-item p-0 pt-2 pb-2">বিএনপি ২০১৪ সালের মতো নৈরাজ্য সৃষ্টি করতে পারবে না:তোফায়েল</li>
+        </div>
+    </div>
+    {{--<hr style="border:1px dashed red">--}}
+    {{--<img class="img-responsive card-img" src="storage/article/image.png" alt="">--}}
+    <hr style="border:1px dashed red">
+    {{--সর্বশেষ পঠিত news--}}
+    <div class="list-group mt-4">
+        <a href="#" class="bg-light pt-2">
+            <h4 class="ml-3 pl-4">সর্বশেষ খবর</h4>
+        </a>
+        <div class="col-md-12 col-lg-12">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item p-0 pt-2 pb-2">হাওয়া ভবনের শাসন আর কোনদিন ফিরে আসতে দেবে না জনগণ---------- মোহাম্মদ নাসিম</li>
+                <li class="list-group-item p-0 pt-2 pb-2">‘মৃত্যুর পর’ রাজপ্রাসাদে!</li>
+                <li class="list-group-item p-0 pt-2 pb-2">বসন্তের যন্ত্রণা ম্যাগপাই পাখি</li>
+                <li class="list-group-item p-0 pt-2 pb-2">বসন্তের যন্ত্রণা ম্যাগপাই পাখি</li>
+                <li class="list-group-item p-0 pt-2 pb-2">জেলেরা মারমুখি, পিছু হটলো অভিযানকারীরা</li>
+                <li class="list-group-item p-0 pt-2 pb-2">বিএনপি ২০১৪ সালের মতো নৈরাজ্য সৃষ্টি করতে পারবে না:তোফায়েল</li>
+        </div>
+    </div>
+    <hr style="border:1px dashed red">
+    <img class="img-responsive card-img p-0" src="storage/article/image.png" alt="">
+    <hr>
+    {{--সব খবর--}}
+    <a href="#" class="list-group-item list-group-item-action active">
+        <h5 class="text-center">সব খবর</h5>
+    </a>
+    <hr>
+    <div class="card">
+        <img class="card-img-top" src="storage/article/imrul.jpg" alt="Card image cap">
+        <div class="card-body  p-1 pt-2 pb-2">
+            <h5 class="card-title">অভিজ্ঞতায় অনন্য ইমরুল</h5>
+            <p class="card-text">কাওসার মুজিব অপূর্ব	অবশেষে ক্যারিয়ারের সেরা ইনিংসটাই খেললেন ইমরুল কায়েস। আন্তর্জাতিক ক্রিকেটে ইমরুল কায়েস এ মাসেই ১০ বছর কাটিয়ে ফেলেছিলেন। বাঁ-হাতি এই...বিস্তারিত</p>
+                <a href="#" class="float-right">Go somewhere</a>
+        </div>
+    </div>
+@endsection
