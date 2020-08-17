@@ -63,7 +63,7 @@ class CategoryController extends Controller
             {
                 Storage::disk('public')->makeDirectory('category');
             }
-            $categoryImage = Image::make($image)->resize(700,450)->save('foo');
+            $categoryImage = Image::make($image)->resize(700,450)->save();
             Storage::disk('public')->put('category/'.$imagename, $categoryImage);
 
         }
