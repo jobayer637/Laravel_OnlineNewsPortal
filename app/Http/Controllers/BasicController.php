@@ -15,7 +15,7 @@ class BasicController extends Controller
         $top10 =Article::latest()->paginate(10);
         $top5 =Article::latest()->paginate(5);
         $articles = Article::latest()->paginate(8);
-        return view('index',compact('top10','articles','top5','sportsCategory'));
+        return view('index',compact('top10','articles','top5'));
     }
 
     public function ReadArticle($category,$id,$title)
